@@ -2,7 +2,7 @@ spring:
   application:
     name: logeek
   profiles:
-    active: profile
+    active: profile,profile2
   cloud:
     config:
       uri: http://localhost:8016
